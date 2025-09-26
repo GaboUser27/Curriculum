@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 2px solid rgb(0,128,255); /* color RGB */
+}
+
+#titulo {
+  text-align: center;
+  color: #0077b6; /* color HEX */
+}
+
+h3 {
+  color: navy; /* color por nombre */
+  border-left: 5px solid #0077b6;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+small {
+  color: gray;
+  font-style: italic;
+}
+
+blockquote {
+  border-left: 4px solid #0077b6;
+  padding-left: 15px;
+  color: #444;
+  font-style: italic;
+  margin: 10px 0;
+  background: #f9fbfc;
+}
+
+table {
+  border-collapse: collapse; /* requerido */
+  width: 100%;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+thead {
+  background: #0077b6;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eaf4fa;
+}
+
+tbody tr:hover {
+  background-color: #caf0f8;
+}
